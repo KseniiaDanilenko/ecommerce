@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import ItemPage from "./item-page";
 import { useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
+import './style.css'
 
 /**
  * Приложение
