@@ -1,6 +1,6 @@
 # ecommerce
 Приложение на React,сборка Webpack, маршрутизация на React Router. Использованы встроенные и собственные хуки. Товар подгружается постранично через Rest Api. Состояние разделено на модули.
 Установка:
-# npm install
-#npm start
+npm install
+npm start
  
