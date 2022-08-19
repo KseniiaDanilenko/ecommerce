@@ -1,0 +1,36 @@
+/* Пункт списка */
+.Item {
+    display: flex;
+    justify-content: flex-between;
+    transition: background-color 1s;
+    padding-left: 10px;
+    padding-right: 20px;
+    line-height: 10px;
+}
+
+
+.Item-title {
+    width: 100%;
+    padding: 10px;
+
+}
+.Item-title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.Item-title a {
+    color: #000;
+    text-decoration: none;
+}
+
+.Item-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.Item-price {
+    padding: 0 10px;
+    white-space: nowrap;
+}
